@@ -51,18 +51,37 @@ export default function Experience() {
         {experiences.map((exp, i) => (
           <motion.div 
             key={i}
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ delay: i * 0.1, duration: 0.5 }}
-            viewport={{ once: true }}
+            // Define animation states here (Parent)
+            initial="inactive"
+            whileInView="active"
+            viewport={{ once: false, margin: "-20% 0px -20% 0px" }} // Active in middle 60% of screen
+            transition={{ duration: 0.5 }}
             className="grid md:grid-cols-12 gap-4 md:gap-8 group relative"
           >
-            {/* Timeline Dot */}
-            <div className="absolute -left-[41px] top-2 w-4 h-4 rounded-full bg-neutral-900 border-2 border-neutral-700 group-hover:border-orange-500 group-hover:bg-orange-500 transition-colors" />
+            {/* 1. Timeline Dot (Child) */}
+            {/* It inherits 'active' state from parent automatically */}
+            <motion.div 
+              variants={{
+                inactive: { backgroundColor: "#171717", borderColor: "#404040" },
+                active: { backgroundColor: "#f97316", borderColor: "#f97316" }
+              }}
+              transition={{ duration: 0.3 }}
+              className="absolute -left-[41px] top-2 w-4 h-4 rounded-full border-2" 
+            />
 
-            <div className="md:col-span-3 text-neutral-500 font-mono text-sm pt-1 group-hover:text-orange-500 transition-colors">
+            {/* 2. Year (Child) */}
+            <motion.div 
+              variants={{
+                inactive: { color: "#737373" }, // Neutral Gray
+                active: { color: "#f97316" }     // Orange
+              }}
+              transition={{ duration: 0.3 }}
+              className="md:col-span-3 font-mono text-sm pt-1 font-bold"
+            >
               {exp.year}
-            </div>
+            </motion.div>
+
+            {/* 3. Details */}
             <div className="md:col-span-9">
               <h3 className="text-xl font-bold text-white">{exp.role}</h3>
               <div className="flex flex-wrap gap-2 mb-3 items-center">

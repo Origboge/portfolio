@@ -1,6 +1,5 @@
-// import LiquidCanvas from "@/components/ui/LiquidCanvas";  <-- REMOVE
-// import CustomCursor from "@/components/ui/CustomCursor";  <-- REMOVE
-import InteractiveBackground from "@/components/ui/InteractiveBackground"; // <-- ADD THIS
+import LiquidCanvas from "@/components/ui/LiquidCanvas"; // <--- The colorful one
+// import CustomCursor from "@/components/ui/CustomCursor"; <--- DELETED/COMMENTED OUT
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
@@ -14,11 +13,12 @@ export default function Home() {
   return (
     <main className="relative min-h-screen">
       
-      {/* The new unified background + touch effect */}
-      <InteractiveBackground />
+      {/* Colorful Background */}
+      <LiquidCanvas />
+      
+      {/* NO CURSOR COMPONENT HERE */}
       
       <Navbar />
-      
       <Hero />
       <About />
       <Experience />
