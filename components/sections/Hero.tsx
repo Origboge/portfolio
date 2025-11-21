@@ -32,7 +32,7 @@ export default function Hero() {
         className="text-xl text-neutral-400 max-w-xl leading-relaxed"
       >
         Fullstack Developer. Problem Solver. Creative Mind. 
-        Specializing in liquid interfaces and immersive web experiences.
+        Specialized in liquid interfaces and immersive web experiences.
       </motion.p>
 
       <motion.div 

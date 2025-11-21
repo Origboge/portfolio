@@ -11,26 +11,28 @@ const experiences = [
     desc: "Microbiologist role involving data analysis and scientific research."
   },
   {
-    year: "Feb 2024 — Jan 2025",
-    role: "NYSC Member",
-    company: "Oyo State Mineral Development Agency",
-    location: "Ibadan, Oyo State",
-    desc: "Assisted in administrative and data-related tasks. Supported cross-functional teams with documentation, research, and community development programs."
-  },
-  {
     year: "Aug 2023 — Present",
     role: "Frontend Developer",
     company: "MikeFlora Schools (Freelance)",
     location: "Remote / Hybrid",
     desc: "Developing and maintaining web interfaces using HTML, Vite, and React. Optimized site performance and implemented responsive designs for educational platforms."
   },
-  {
+   {
     year: "Jul 2020 — Present",
     role: "Social Media Manager",
     company: "Faybanet",
     location: "Nigeria",
     desc: "Managing digital presence, content strategy, and audience engagement to drive brand awareness and growth."
   },
+  {
+    year: "Feb 2024 — Jan 2025",
+    role: "NYSC Member",
+    company: "Oyo State Mineral Development Agency",
+    location: "Ibadan, Oyo State",
+    desc: "Assisted in administrative and data-related tasks. Supported cross-functional teams with documentation, research, and community development programs."
+  },
+  
+ 
   {
     year: "Jun 2018 — Nov 2018",
     role: "Internship Trainee",
