@@ -11,7 +11,7 @@ const projects = [
     tech: ["React","Typescript", "Tailwind CSS", "Vite", "javascript", "Firebase"],
     image: "/fmyd.png",
     liveUrl: "https://wastetowealthfmyd.com.ng/",
-    githubUrl: "https://origboge.github.io/FMYD-CIRCULAR-ECO/index.html",
+    githubUrl: "https://github.com/Origboge/fmyd-eco-registration",
   },
   {
     title: "Mike Flora Schools",
@@ -20,7 +20,7 @@ const projects = [
     tech: ["React", "Vite", "CSS", "javascript"],
     image: "/mikeflora.png",
     liveUrl: "https://origboge.github.io/MIKEFLORA/",
-    githubUrl: "https://origboge.github.io/MIKEFLORA/",
+    githubUrl: "https://github.com/Origboge/MIKEFLORA",
   },
   {
     title: "The Support System",
@@ -29,7 +29,7 @@ const projects = [
     tech: ["React", "Vite", "CSS", "javascript"],
     image: "/ssweb.png",
     liveUrl: "https://thesupportsystem.vercel.app/",
-    githubUrl: "https://thesupportsystem.vercel.app/",
+    githubUrl: "https://github.com/Origboge/Support-System",
   },
   {
     title: "Writer's Portfolio",
@@ -38,7 +38,7 @@ const projects = [
     tech: ["React", "Vite", "CSS", "javascript"],
     image: "/ajah.png",
     liveUrl: "https://ajah101.vercel.app/",
-    githubUrl: "https://ajah101.vercel.app/",
+    githubUrl: "https://github.com/Origboge/writer-portfolio",
   },
 ];
 
