@@ -8,9 +8,9 @@ const projects = [
     title: "FMYD Circular Economy Youth Empowerment",
     category: "Vite / Firebase",
     description: "Waste-to-wealth initiative empowering Nigerian youths by transforming waste into eco-friendly resources and products.",
-    tech: ["HTML", "Tailwind CSS", "Vite", "javascript", "Firebase"],
+    tech: ["React","Typescript", "Tailwind CSS", "Vite", "javascript", "Firebase"],
     image: "/fmyd.png",
-    liveUrl: "https://origboge.github.io/FMYD-CIRCULAR-ECO/index.html",
+    liveUrl: "https://wastetowealthfmyd.com.ng/",
     githubUrl: "https://origboge.github.io/FMYD-CIRCULAR-ECO/index.html",
   },
   {
