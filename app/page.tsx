@@ -12,12 +12,12 @@ import Contact from "@/components/sections/Contact";
 export default function Home() {
   return (
     <main className="relative min-h-screen">
-      
+
       {/* Colorful Background */}
       <LiquidCanvas />
-      
+
       {/* NO CURSOR COMPONENT HERE */}
-      
+
       <Navbar />
       <Hero />
       <About />
@@ -26,9 +26,9 @@ export default function Home() {
       <Projects />
       <Skills />
       <Contact />
-      
+
       <footer className="text-center py-8 text-neutral-600 text-xs uppercase">
-        © 2025 Origboge Bamise Akinfiresoye.
+        © 2026 Origboge Bamise Akinfiresoye.
       </footer>
     </main>
   );
