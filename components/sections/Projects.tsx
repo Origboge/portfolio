@@ -5,10 +5,19 @@ import { ExternalLink, Github } from "lucide-react";
 // --- YOUR PROJECT DATA ---
 const projects = [
   {
+    title: "Dwelgo Properties",
+    category: "React/Vite",
+    description: "Dwelgo brings solutions to home hunting problems.",
+    tech: ["React", "Typescript", "Tailwind CSS", "Vite", "javascript", "mongoDB"],
+    image: "/dwelgo.png",
+    liveUrl: "https://www.dwelgo.ng/",
+    githubUrl: "https://github.com/Origboge/Dwelgo.ng",
+  },
+  {
     title: "FMYD Circular Economy Youth Empowerment",
     category: "Vite / Firebase",
     description: "Waste-to-wealth initiative empowering Nigerian youths by transforming waste into eco-friendly resources and products.",
-    tech: ["React","Typescript", "Tailwind CSS", "Vite", "javascript", "Firebase"],
+    tech: ["React", "Typescript", "Tailwind CSS", "Vite", "javascript", "Firebase"],
     image: "/fmyd.png",
     liveUrl: "https://wastetowealthfmyd.com.ng/",
     githubUrl: "https://github.com/Origboge/fmyd-eco-registration",
